@@ -1,9 +1,8 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class Cliente {
     private String nome;
     private String cpf;
+    private Conta conta;
 
     public Cliente(String nome, String cpf) {
         this.nome = nome;
@@ -26,7 +25,12 @@ public class Cliente {
         this.cpf = cpf;
     }
 
+    public void getConta(Conta conta) {
+        this.conta = conta;
+    }
 
 
-
+    public void setConta(Conta conta) {
+        this.conta = conta;
+    }
 }
