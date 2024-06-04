@@ -21,4 +21,8 @@ public class Banco {
         this.contas = contas;
     }
 
+    public void adicionarConta(Conta conta) {
+        contas.add(conta);
+    }
+
 }
